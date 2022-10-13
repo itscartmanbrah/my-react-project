@@ -1,7 +1,7 @@
 import { feedback } from '../constants';
-import styles from '../style';
+import styles, { layout } from '../style';
 import FeedbackCard from './FeedbackCard';
-
+import { astro4, astro5 } from '../assets';
 const Testimonials = () => (
 	<section
 		id='clients'
@@ -25,6 +25,20 @@ const Testimonials = () => (
 			{feedback.map((card) => (
 				<FeedbackCard key={card.id} {...card} />
 			))}
+		</div>
+		<div
+			className={`${layout.sectionImg} flex lg:flex-row ss:flex-col xs:flex-col`}
+		>
+			<img
+				src={astro4}
+				alt='card'
+				className='lg:w-[60%] h-[100%] object-contain xs:w-[400px] ss:w-[100%]'
+			/>
+			<img
+				src={astro5}
+				alt='card'
+				className='lg:w-[40%] lg:h-[20%] object-contain xs:w-[300px] ss:w-[300px]'
+			/>
 		</div>
 	</section>
 );

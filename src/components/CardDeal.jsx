@@ -1,4 +1,4 @@
-import { card } from '../assets';
+import { astro1 } from '../assets';
 import styles, { layout } from '../style';
 import Button from './Button';
 
@@ -18,7 +18,11 @@ const CardDeal = () => (
 			<Button styles='mt-10' />
 		</div>
 		<div className={layout.sectionImg}>
-			<img src={card} alt='card' className='w-[100% h-[100%]' />
+			<img
+				src={astro1}
+				alt='card'
+				className='w-[50%] h-[100%] object-contain'
+			/>
 		</div>
 	</section>
 );

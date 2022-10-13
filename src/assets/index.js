@@ -23,8 +23,15 @@ import twitter from './twitter.svg';
 import people01 from './people01.png';
 import people02 from './people02.png';
 import people03 from './people03.png';
-import astro from './astro.png';
-
+import astro1 from './astro1.png';
+import astro2 from './astro2.png';
+import astro3 from './astro3.png';
+import astro4 from './astro4.png';
+import astro5 from './astro5.png';
+import css from './css.png';
+import git from './git.png';
+import html from './html.png';
+import react from './react.png';
 export {
 	airbnb,
 	bill,
@@ -51,5 +58,13 @@ export {
 	people01,
 	people02,
 	people03,
-	astro,
+	astro1,
+	astro2,
+	astro3,
+	astro4,
+	astro5,
+	css,
+	html,
+	git,
+	react,
 };
